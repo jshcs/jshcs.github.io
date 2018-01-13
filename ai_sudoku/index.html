@@ -1,0 +1,20 @@
+---
+layout: default
+title: Sudoku Solver
+---
+
+  <script src="makecsp.js"></script>
+  <script src="solver.js"></script>
+  <script src="basic.js"></script>
+  <div class="description sudoku-description">
+  <ul class="puzzle"><h3>Steps</h3>
+    <li>Click MAKE and input the sudoku puzzle.</li>
+    <li>Click DONE.</li>
+    <li>Click SOLVE and see the magic!</li>
+    <li>Click RESET to reset the puzzle to default.</li>
+  </ul>
+  </div>
+  <button id="startpuzzle" onclick="makeeditable()">MAKE</button>
+  <button id="solvepuzzle" onclick="readtable()" disabled="true">SOLVE</button>
+  <button id="resetpuzzle" onclick="resetvalues()">RESET</button>
+  <button id="donepuzzle" onclick="donepuzzle()">DONE</button>
