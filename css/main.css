@@ -96,7 +96,7 @@ img{
   left: 35%;
   width: 30%;
   height: 10%;
-  top: 2%;
+  top: 40%;
   margin: 0;
   vertical-align: bottom;
 }
@@ -133,12 +133,13 @@ img{
 .intro{
   position: relative;
   width: 55%;
-  height: 40%;
+  height: 331px;
   margin: 10% 0 0 0;
   top: 70%;
   font-size: 150%;
   background-color: #F0FFFF;
   float: right;
+  overflow: scroll;
 }
 .description h1{
   text-align: center;
@@ -151,28 +152,30 @@ img{
   left:0;
   font-size: 100%;
   text-align:justify;
+  overflow: scroll;
 }
 .big-sq{
   position: relative;
   margin: 10% 0 0 0;
-  padding; 1em 1em 1em 1em;
+  /*padding; 1em 1em 1em 1em;*/
   background-color: #87CEFA;
   color: black;
   width: 30%;
   float: left;
-  height: 40%;
+  height: 331px;
   top: 30%;
   left: 10%;
+  font-size: 600%;
 }
 .hi{
   position: relative;
-  margin: 0.6em 0.3em 0.6em 0.3em;
+  /*margin: 0.6em 0.3em 0.6em 0.3em;*/
   padding: 0;
   color: white;
-  font-size: 800%;
+  font-size: 100%;
   text-align: center;
   vertical-align: middle;
-  top: 15%;
+  /*top: 15%;*/
 }
 li.projects-list, .projects-description-list{
   position: relative;
