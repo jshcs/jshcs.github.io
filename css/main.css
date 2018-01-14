@@ -139,7 +139,7 @@ img{
   font-size: 150%;
   background-color: #F0FFFF;
   float: right;
-  overflow: scroll;
+  overflow: auto;
 }
 .description h1{
   text-align: center;
@@ -152,7 +152,7 @@ img{
   left:0;
   font-size: 100%;
   text-align:justify;
-  overflow: scroll;
+  overflow: auto;
 }
 .big-sq{
   position: relative;
